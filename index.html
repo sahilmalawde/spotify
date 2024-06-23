@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="left">
+        <div class="home"><h2><img src="data:image/jpeg;base64,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" alt="">Spotify</h2><br>
+        <h2><i class="fa-solid fa-house"></i> <a href="index.html">Home</a></h2><br>
+        <h2><i class="fa-solid fa-magnifying-glass"></i> <a href="">Search</a></h2>
+    </div>
+        <div class="lib">
+            <h2>Your Library</h2>
+            <div class="play" id = "play">
+                <h3>Create your First playlist</h3>
+                <p>Its easy, we'll help you</p>
+                <button>Create playlist</button>
+            </div>
+            <div class="legal">
+                <a href="Legal">Legal</a>
+                <a href="Legal">Safety & Privacy Center</a>
+                <a href="Legal">Privacy Policy</a><br><br>
+                <a href="Legal">Cookies</a>
+                <a href="Legal">About Ads</a>
+                <a href="Legal">Accessibility</a><br><br>
+                <a href="Legal">Cookies</a><br><br><br>
+
+                <button>English</button>
+            </div>
+        </div>
+    </div>
+    <div class="top">
+        <button id="signup">Sign up</button>
+        <button>Log in</button>
+    </div>
+    <div class="main">
+        <h1>Popular Songs</h1>
+        <div class="list">
+            <div class="song" ><img src="https://th.bing.com/th/id/OIP.hTpyZ_ikHSkBgKQpdMPb_gAAAA?w=134&h=188&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+            <h3>Pehle bhi main</h3>
+            <p>Vishal Mishra</p>
+            <p>Animal</p>
+            <button data-audio="myAudio1"><i class="fa-solid fa-play"></i></button>
+            <audio id="myAudio1">
+                <source src="Pehle-Bhi-Main(PaglaSongs).mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+            <div class="song"><img src="https://th.bing.com/th/id/OIP.bClP2xkyyk9f6lktzf-wEAAAAA?w=119&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+                <h3>Teri Baaton Mei Aisa Ulja Jiya</h3>
+                <p>Sachin jigar</p>
+                <p>Teri Baaton mei aisa ulja jiya</p>
+                <button data-audio="myAudio2"><i class="fa-solid fa-play"></i></button></div>
+                <audio id="myAudio2">
+                    <source src="Teri-Baaton-Mein-Aisa-Uljha-Jiya-(Title-Track)(PaglaSongs).mp3" type="audio/mpeg" >
+                    Your browser does not support the audio element.
+                </audio>
+            <div class="song"><img src="https://th.bing.com/th/id/OIP.fpYERSwSq_gMIlbsmp-wHwHaHa?w=187&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+                <h3>Apna bana le piya</h3>
+                <p>Arijit Singh</p>
+                <p>Bhediya</p>
+                <button data-audio="myAudio3"><i class="fa-solid fa-play"></i></button></div>
+                <audio id="myAudio3">
+                    <source src="https://raag.fm/files/mp3/128/Hindi/23885/Apna%20Bana%20Le%20-%20(Raag.Fm).mp3" type="audio/mpeg" >
+                    Your browser does not support the audio element.
+                </audio>
+            <div class="song"><img src="https://th.bing.com/th/id/OIP.VTzx7ZtxV4O4YFO_E1TfZwAAAA?w=171&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+                <h3>295</h3>
+                <p>Siddhu Moosewala</p>
+                <p>Moosetape</p>
+                <button><i class="fa-solid fa-play"></i></button></div>
+        </div>
+
+        <h1>Popular Artists</h1>
+        <div class="list">
+            <div class="song"><img src="https://th.bing.com/th/id/OIP.hTpyZ_ikHSkBgKQpdMPb_gAAAA?w=134&h=188&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+            <h3>Pehle bhi main</h3>
+            <p>Vishal Mishra</p>
+            <p>Animal</p>
+        </div>
+            <div class="song"><img src="https://th.bing.com/th/id/OIP.bClP2xkyyk9f6lktzf-wEAAAAA?w=119&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+                <h3>Teri Baaton Mei Aisa Ulja Jiya</h3>
+                <p>Sachin jigar</p>
+                <p>Teri Baaton mei aisa ulja jiya</p></div>
+            <div class="song"><img src="https://th.bing.com/th/id/OIP.fpYERSwSq_gMIlbsmp-wHwHaHa?w=187&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+                <h3>Apna bana le piya</h3>
+                <p>Arijit Singh</p>
+                <p>Bhediya</p></div>
+            <div class="song"><img src="https://th.bing.com/th/id/OIP.VTzx7ZtxV4O4YFO_E1TfZwAAAA?w=171&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+                <h3>295</h3>
+                <p>Siddhu Moosewala</p>
+                <p>Moosetape</p></div>
+        </div>
+
+        <h1>Popular Albums</h1>
+        <div class="list">
+            <div class="song"><img src="https://th.bing.com/th/id/OIP.hTpyZ_ikHSkBgKQpdMPb_gAAAA?w=134&h=188&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+            <h3>Pehle bhi main</h3>
+            <p>Vishal Mishra</p>
+            <p>Animal</p>
+        </div>
+            <div class="song"><img src="https://th.bing.com/th/id/OIP.bClP2xkyyk9f6lktzf-wEAAAAA?w=119&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+                <h3>Teri Baaton Mei Aisa Ulja Jiya</h3>
+                <p>Sachin jigar</p>
+                <p>Teri Baaton mei aisa ulja jiya</p></div>
+            <div class="song"><img src="https://th.bing.com/th/id/OIP.fpYERSwSq_gMIlbsmp-wHwHaHa?w=187&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+                <h3>Apna bana le piya</h3>
+                <p>Arijit Singh</p>
+                <p>Bhediya</p></div>
+            <div class="song"><img src="https://th.bing.com/th/id/OIP.VTzx7ZtxV4O4YFO_E1TfZwAAAA?w=171&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+                <h3>295</h3>
+                <p>Siddhu Moosewala</p>
+                <p>Moosetape</p></div>
+        </div>
+    </div>
+    <!-- <div class="player">
+        <h3 class="name"></h3>
+        <h3 class="duration"></h3>
+        <button><i class="fa-solid fa-next"></i></button>
+        <button><i class="fa-solid fa-pause"></i></button>
+        <button><i class="fa-solid fa-previous"></i></button>
+        <button><i class="fa-solid fa-plus"></i></button>
+    </div> -->
+    <div class="premium">
+        <div class="info"><h4>Preview of Spotify</h4>
+        <h5>Sign up to get unlimited benefits</h5></div>
+        <button>Sign up free</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
